@@ -977,6 +977,179 @@
 
 ---
 
+## 🆕 **Additional Practice Questions** (31-35)
+
+### Question 31: Modern Pathlib and File Operations ⭐⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Modern File Handling  
+**📝 Skills Tested:** pathlib, modern file operations, cross-platform compatibility
+
+**Task:** Use pathlib for modern, cross-platform file and directory operations.
+
+**Real-life Scenario:** You're building a cross-platform file management tool:
+- Handle file paths across different operating systems
+- Perform complex file operations with pathlib
+- Manage file permissions and metadata
+- Create robust file handling that works everywhere
+
+**Think about:**
+- How does pathlib improve file handling compared to os.path?
+- When should you use pathlib vs traditional file operations?
+- How do you handle different path formats across platforms?
+
+**Challenge yourself:**
+- Can you create a file synchronization tool using pathlib?
+- What if you need to handle network paths and special file systems?
+
+**If you can't solve this, review:** pathlib, modern file operations, cross-platform compatibility
+
+**🛤️ Modern Paths:** Use pathlib for cleaner, more reliable file operations!
+
+---
+
+### Question 32: Async File Operations and I/O ⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Asynchronous Programming  
+**📝 Skills Tested:** async file operations, aiofiles, concurrent I/O
+
+**Task:** Implement asynchronous file operations for high-performance I/O.
+
+**Real-life Scenario:** You're building a high-performance web server:
+- Handle multiple file operations concurrently
+- Process large files without blocking the event loop
+- Implement efficient file streaming and processing
+- Scale to handle thousands of concurrent requests
+
+**Think about:**
+- When should you use async file operations?
+- How do you handle errors in async file operations?
+- What are the performance benefits of async I/O?
+
+**Challenge yourself:**
+- Can you implement a file processing pipeline with async operations?
+- What if you need to handle real-time file monitoring?
+
+**If you can't solve this, review:** async file operations, aiofiles, concurrent I/O
+
+**⚡ Async I/O:** Handle multiple file operations concurrently for better performance!
+
+---
+
+### Question 33: Modern File Formats and Serialization ⭐⭐⭐
+
+**⏱️ Time Estimate:** 35 minutes  
+**🎯 Category:** File Formats  
+**📝 Skills Tested:** Modern formats, serialization, data interchange
+
+**Task:** Work with modern file formats like Parquet, Avro, and Protocol Buffers.
+
+**Real-life Scenario:** You're building a data pipeline:
+- Process large datasets in efficient binary formats
+- Handle schema evolution and data versioning
+- Implement efficient serialization for different data types
+- Optimize for storage and transmission
+
+**Think about:**
+- Which file format is best for your use case?
+- How do you handle schema changes over time?
+- What are the trade-offs between different formats?
+
+**Challenge yourself:**
+- Can you implement a data migration tool between different formats?
+- What if you need to handle streaming data in real-time?
+
+**If you can't solve this, review:** Modern file formats, serialization, data interchange
+
+**📊 Modern Formats:** Use efficient binary formats for better performance!
+
+---
+
+### Question 34: File Security and Access Control ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 40 minutes  
+**🎯 Category:** Security  
+**📝 Skills Tested:** File security, access control, encryption
+
+**Task:** Implement secure file handling with proper access control and encryption.
+
+**Real-life Scenario:** You're building a secure file storage system:
+- Implement proper file permissions and access control
+- Encrypt sensitive files and data
+- Handle secure file sharing and collaboration
+- Audit file access and modifications
+
+**Think about:**
+- How do you ensure file security and privacy?
+- What are the best practices for file encryption?
+- How do you handle key management and distribution?
+
+**Challenge yourself:**
+- Can you implement a secure file sharing system?
+- What if you need to handle compliance requirements?
+
+**If you can't solve this, review:** File security, access control, encryption
+
+**🔒 Security:** Protect your files with proper security measures!
+
+---
+
+### Question 35: Distributed File Systems and Cloud Storage ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 45 minutes  
+**🎯 Category:** Distributed Systems  
+**📝 Skills Tested:** Distributed file systems, cloud storage, scalability
+
+**Task:** Work with distributed file systems and cloud storage solutions.
+
+**Real-life Scenario:** You're building a cloud-native application:
+- Integrate with cloud storage services (S3, GCS, Azure)
+- Handle distributed file operations across multiple nodes
+- Implement file replication and backup strategies
+- Scale to handle petabytes of data
+
+**Think about:**
+- How do you choose the right cloud storage solution?
+- What are the challenges of distributed file systems?
+- How do you handle data consistency and availability?
+
+**Challenge yourself:**
+- Can you implement a distributed file synchronization system?
+- What if you need to handle global data distribution?
+
+**If you can't solve this, review:** Distributed file systems, cloud storage, scalability
+
+**☁️ Cloud Storage:** Scale your file operations to the cloud!
+
+---
+
+## 🎯 **Updated Study Progress Summary**
+
+### 📈 **Completion Status:**
+
+- 🟢 **Basic Level:** 0/6 completed
+- 🟡 **Intermediate Level:** 0/6 completed
+- 🟠 **Advanced Level:** 0/5 completed
+- 🔴 **Expert Level:** 0/3 completed
+- 🆕 **Additional Practice:** 0/10 completed
+
+### ⏱️ **Total Estimated Time:** 16 hours 15 minutes
+
+### 🎓 **Next Steps:**
+
+1. Start with Basic Level questions (1-6)
+2. Move to Intermediate when comfortable
+3. Challenge yourself with Advanced concepts
+4. Master Expert level for real-world scenarios
+5. Practice with Additional Questions (21-35) featuring modern Python features
+
+---
+
+> **💡 Pro Tip:** Modern Python features like pathlib and async file operations make file handling more efficient and reliable!
+
+---
+
 _Happy Learning! Remember, file handling is essential for data persistence and system integration! 📁✨_
 
 ---
