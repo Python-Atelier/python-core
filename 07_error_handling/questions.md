@@ -977,6 +977,179 @@
 
 ---
 
+## 🆕 **Additional Practice Questions** (31-35)
+
+### Question 31: Modern Exception Handling Patterns ⭐⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Modern Patterns  
+**📝 Skills Tested:** Modern exception handling, context managers, error recovery
+
+**Task:** Implement modern exception handling patterns with context managers and error recovery.
+
+**Real-life Scenario:** You're building a resilient microservice:
+- Use context managers for resource cleanup
+- Implement circuit breaker patterns for external services
+- Handle partial failures gracefully
+- Build self-healing systems
+
+**Think about:**
+- How do context managers improve error handling?
+- When should you use circuit breaker patterns?
+- How do you design systems that recover from failures?
+
+**Challenge yourself:**
+- Can you implement a retry mechanism with exponential backoff?
+- What if you need to handle cascading failures?
+
+**If you can't solve this, review:** Context managers, circuit breakers, error recovery
+
+**🔄 Resilience:** Build systems that recover from failures automatically!
+
+---
+
+### Question 32: Async Exception Handling ⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Asynchronous Programming  
+**📝 Skills Tested:** Async exceptions, error propagation, concurrent error handling
+
+**Task:** Handle exceptions in asynchronous code and concurrent operations.
+
+**Real-life Scenario:** You're building an async web scraper:
+- Handle exceptions in async operations
+- Propagate errors across async boundaries
+- Implement error handling for concurrent tasks
+- Build robust async error recovery
+
+**Think about:**
+- How do you handle exceptions in async functions?
+- What happens when async tasks fail?
+- How do you propagate errors in async code?
+
+**Challenge yourself:**
+- Can you implement an async retry mechanism?
+- What if you need to handle timeouts in async operations?
+
+**If you can't solve this, review:** Async exceptions, error propagation, concurrent error handling
+
+**⚡ Async Errors:** Handle exceptions in concurrent and async code!
+
+---
+
+### Question 33: Custom Exception Hierarchies ⭐⭐⭐
+
+**⏱️ Time Estimate:** 35 minutes  
+**🎯 Category:** Exception Design  
+**📝 Skills Tested:** Custom exceptions, exception hierarchies, error classification
+
+**Task:** Design comprehensive exception hierarchies for complex applications.
+
+**Real-life Scenario:** You're building a financial trading system:
+- Create domain-specific exception hierarchies
+- Handle different types of trading errors
+- Implement error classification and routing
+- Build comprehensive error reporting
+
+**Think about:**
+- How do you design effective exception hierarchies?
+- When should you create custom exceptions?
+- How do you handle error classification and routing?
+
+**Challenge yourself:**
+- Can you implement a multi-level error handling system?
+- What if you need to handle errors from multiple subsystems?
+
+**If you can't solve this, review:** Custom exceptions, exception hierarchies, error classification
+
+**🏗️ Exception Design:** Create clear and maintainable exception hierarchies!
+
+---
+
+### Question 34: Error Monitoring and Observability ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 40 minutes  
+**🎯 Category:** Production Systems  
+**📝 Skills Tested:** Error monitoring, observability, production debugging
+
+**Task:** Implement comprehensive error monitoring and observability systems.
+
+**Real-life Scenario:** You're building a production monitoring system:
+- Track and analyze errors in real-time
+- Implement distributed tracing for error tracking
+- Build alerting and notification systems
+- Create error dashboards and analytics
+
+**Think about:**
+- How do you monitor errors in production systems?
+- What metrics are most important for error tracking?
+- How do you implement effective alerting?
+
+**Challenge yourself:**
+- Can you implement a distributed error tracking system?
+- What if you need to handle errors across multiple services?
+
+**If you can't solve this, review:** Error monitoring, observability, production debugging
+
+**📊 Monitoring:** Track and analyze errors in production systems!
+
+---
+
+### Question 35: Advanced Error Recovery and Resilience ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 45 minutes  
+**🎯 Category:** System Resilience  
+**📝 Skills Tested:** Error recovery, resilience patterns, fault tolerance
+
+**Task:** Implement advanced error recovery and resilience patterns.
+
+**Real-life Scenario:** You're building a distributed system:
+- Implement fault tolerance and recovery mechanisms
+- Handle network partitions and node failures
+- Build self-healing and auto-recovery systems
+- Design for eventual consistency and data integrity
+
+**Think about:**
+- How do you design fault-tolerant systems?
+- What are the challenges of distributed error handling?
+- How do you ensure data consistency during failures?
+
+**Challenge yourself:**
+- Can you implement a distributed consensus system?
+- What if you need to handle Byzantine failures?
+
+**If you can't solve this, review:** Error recovery, resilience patterns, fault tolerance
+
+**🛡️ Resilience:** Build systems that survive and recover from failures!
+
+---
+
+## 🎯 **Updated Study Progress Summary**
+
+### 📈 **Completion Status:**
+
+- 🟢 **Basic Level:** 0/6 completed
+- 🟡 **Intermediate Level:** 0/6 completed
+- 🟠 **Advanced Level:** 0/5 completed
+- 🔴 **Expert Level:** 0/3 completed
+- 🆕 **Additional Practice:** 0/10 completed
+
+### ⏱️ **Total Estimated Time:** 17 hours 15 minutes
+
+### 🎓 **Next Steps:**
+
+1. Start with Basic Level questions (1-6)
+2. Move to Intermediate when comfortable
+3. Challenge yourself with Advanced concepts
+4. Master Expert level for real-world scenarios
+5. Practice with Additional Questions (21-35) featuring modern Python features
+
+---
+
+> **💡 Pro Tip:** Modern Python features like context managers and async exception handling make error management more robust and efficient!
+
+---
+
 _Happy Learning! Remember, proper error handling is crucial for building reliable and maintainable applications! 🛡️✨_
 
 ---

@@ -922,4 +922,177 @@
 
 ---
 
+## 🆕 **Additional Practice Questions** (31-35)
+
+### Question 31: Modern Decorator Patterns and Type Safety ⭐⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Modern Patterns  
+**📝 Skills Tested:** Modern decorators, type safety, decorator composition
+
+**Task:** Use modern decorator patterns with type safety and decorator composition.
+
+**Real-life Scenario:** You're building a web API framework:
+- Create type-safe decorators for route handling
+- Compose multiple decorators for complex functionality
+- Handle decorator parameters and configuration
+- Build reusable decorator libraries
+
+**Think about:**
+- How do you create type-safe decorators?
+- When should you use decorator composition?
+- How do you handle decorator parameters effectively?
+
+**Challenge yourself:**
+- Can you implement a decorator-based middleware system?
+- What if you need to handle complex decorator interactions?
+
+**If you can't solve this, review:** Modern decorators, type safety, decorator composition
+
+**🎭 Modern Decorators:** Use type-safe decorators for better code quality!
+
+---
+
+### Question 32: Advanced Decorator Metaprogramming ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 40 minutes  
+**🎯 Category:** Metaprogramming  
+**📝 Skills Tested:** Decorator metaprogramming, dynamic decorators, code generation
+
+**Task:** Use decorators for advanced metaprogramming and dynamic code generation.
+
+**Real-life Scenario:** You're building a code generation framework:
+- Generate decorators dynamically based on configuration
+- Implement decorator factories for different use cases
+- Handle complex decorator hierarchies
+- Build domain-specific decorator languages
+
+**Think about:**
+- How do you generate decorators dynamically?
+- What are the advanced patterns for decorator metaprogramming?
+- How do you handle complex decorator interactions?
+
+**Challenge yourself:**
+- Can you implement a decorator-based DSL?
+- What if you need to handle decorators across different modules?
+
+**If you can't solve this, review:** Decorator metaprogramming, dynamic decorators, code generation
+
+**🔮 Metaprogramming:** Use decorators to generate code dynamically!
+
+---
+
+### Question 33: Decorator Performance and Optimization ⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Performance  
+**📝 Skills Tested:** Decorator performance, optimization, profiling
+
+**Task:** Optimize decorator performance and handle performance bottlenecks.
+
+**Real-life Scenario:** You're building a high-performance web application:
+- Profile decorator performance impact
+- Optimize decorator execution
+- Handle performance bottlenecks
+- Implement efficient decorator patterns
+
+**Think about:**
+- How do you measure decorator performance?
+- What are the performance characteristics of different decorator patterns?
+- How do you optimize decorator execution?
+
+**Challenge yourself:**
+- Can you implement a performance monitoring decorator?
+- What if you need to handle real-time performance requirements?
+
+**If you can't solve this, review:** Decorator performance, optimization, profiling
+
+**⚡ Performance:** Optimize decorators for maximum efficiency!
+
+---
+
+### Question 34: Decorator Security and Access Control ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 35 minutes  
+**🎯 Category:** Security  
+**📝 Skills Tested:** Decorator security, access control, authentication
+
+**Task:** Implement secure decorators for access control and authentication.
+
+**Real-life Scenario:** You're building a secure web application:
+- Implement authentication decorators
+- Handle authorization and access control
+- Secure sensitive operations
+- Build comprehensive security systems
+
+**Think about:**
+- How do you implement secure decorators?
+- What are the security considerations for decorators?
+- How do you handle access control with decorators?
+
+**Challenge yourself:**
+- Can you implement a role-based access control system?
+- What if you need to handle complex security requirements?
+
+**If you can't solve this, review:** Decorator security, access control, authentication
+
+**🔒 Security:** Protect your application with secure decorators!
+
+---
+
+### Question 35: Advanced Decorator Patterns and Frameworks ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 45 minutes  
+**🎯 Category:** Advanced Patterns  
+**📝 Skills Tested:** Advanced patterns, framework design, decorator ecosystems
+
+**Task:** Implement advanced decorator patterns and build decorator-based frameworks.
+
+**Real-life Scenario:** You're building a comprehensive web framework:
+- Design decorator-based architecture
+- Implement complex decorator patterns
+- Handle decorator ecosystems and interactions
+- Build extensible framework systems
+
+**Think about:**
+- How do you design decorator-based architectures?
+- What are the advanced patterns for decorator frameworks?
+- How do you handle complex decorator interactions?
+
+**Challenge yourself:**
+- Can you implement a full web framework using decorators?
+- What if you need to handle decorators across different languages?
+
+**If you can't solve this, review:** Advanced patterns, framework design, decorator ecosystems
+
+**🏗️ Framework Design:** Build powerful frameworks with decorator patterns!
+
+---
+
+## 🎯 **Updated Study Progress Summary**
+
+### 📈 **Completion Status:**
+
+- 🟢 **Basic Level:** 0/6 completed
+- 🟡 **Intermediate Level:** 0/6 completed
+- 🟠 **Advanced Level:** 0/5 completed
+- 🔴 **Expert Level:** 0/3 completed
+- 🆕 **Additional Practice:** 0/10 completed
+
+### ⏱️ **Total Estimated Time:** 22 hours 30 minutes
+
+### 🎓 **Next Steps:**
+
+1. Start with Basic Level questions (1-6)
+2. Move to Intermediate when comfortable
+3. Challenge yourself with Advanced concepts
+4. Master Expert level for real-world scenarios
+5. Practice with Additional Questions (21-35) featuring modern Python features
+
+---
+
+> **💡 Pro Tip:** Modern Python features like type-safe decorators and advanced metaprogramming make decorator patterns more powerful and reliable!
+
+---
+
 _Happy Learning! Remember, decorators are powerful tools for enhancing and extending function behavior! 🎭✨_

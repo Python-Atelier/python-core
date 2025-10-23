@@ -1049,6 +1049,179 @@
 
 ---
 
+## 🆕 **Additional Practice Questions** (31-35)
+
+### Question 31: Type Parameters and Generic Functions ⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Type System  
+**📝 Skills Tested:** Type parameters, generic functions, type safety
+
+**Task:** Use Python 3.12+ type parameters to create generic functions that work with multiple types.
+
+**Real-life Scenario:** You're building a data processing library:
+- Create functions that work with any sequence type
+- Implement generic algorithms for different data types
+- Ensure type safety across different collections
+- Build reusable components for various data structures
+
+**Think about:**
+- How do type parameters improve code reusability?
+- When should you use generic functions vs specific implementations?
+- How do you handle type constraints and bounds?
+
+**Challenge yourself:**
+- Can you implement a generic sorting algorithm that works with any comparable type?
+- What if you need to handle complex type relationships?
+
+**If you can't solve this, review:** Type parameters, generic programming, type constraints
+
+**🔧 Generic Functions:** Write once, work with any compatible type!
+
+---
+
+### Question 32: Self Types and Method Chaining ⭐⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Type Annotations  
+**📝 Skills Tested:** Self types, method chaining, fluent interfaces
+
+**Task:** Use Self types to create fluent interfaces and method chaining patterns.
+
+**Real-life Scenario:** You're building a query builder library:
+- Create methods that return the same instance type
+- Enable method chaining for complex operations
+- Handle inheritance with proper type annotations
+- Build intuitive APIs for data manipulation
+
+**Think about:**
+- How do Self types improve method chaining?
+- When should you use Self vs the actual class name?
+- How do you handle inheritance with Self types?
+
+**Challenge yourself:**
+- Can you create a fluent API for database queries?
+- What if you need to handle multiple inheritance with Self types?
+
+**If you can't solve this, review:** Self types, method chaining, fluent interfaces
+
+**🔗 Method Chaining:** Create intuitive APIs with Self types!
+
+---
+
+### Question 33: Function Composition and Pipelines ⭐⭐⭐
+
+**⏱️ Time Estimate:** 35 minutes  
+**🎯 Category:** Functional Programming  
+**📝 Skills Tested:** Function composition, pipelines, higher-order functions
+
+**Task:** Create function composition patterns and data processing pipelines.
+
+**Real-life Scenario:** You're building a data transformation system:
+- Compose multiple functions into processing pipelines
+- Create reusable transformation components
+- Handle error propagation in pipelines
+- Build complex data processing workflows
+
+**Think about:**
+- How do you compose functions effectively?
+- When is function composition better than nested calls?
+- How do you handle errors in composed functions?
+
+**Challenge yourself:**
+- Can you create a pipeline that processes different data formats?
+- What if you need to handle parallel processing in pipelines?
+
+**If you can't solve this, review:** Function composition, pipelines, functional programming
+
+**🔄 Function Composition:** Build complex workflows from simple functions!
+
+---
+
+### Question 34: Caching and Memoization Patterns ⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Performance Optimization  
+**📝 Skills Tested:** Caching, memoization, performance patterns
+
+**Task:** Implement various caching and memoization patterns for performance optimization.
+
+**Real-life Scenario:** You're building a web API with expensive computations:
+- Cache function results to avoid repeated calculations
+- Implement different caching strategies (LRU, TTL, etc.)
+- Handle cache invalidation and updates
+- Optimize memory usage with smart caching
+
+**Think about:**
+- When should you use caching vs recomputation?
+- How do you choose the right caching strategy?
+- What are the trade-offs between memory and performance?
+
+**Challenge yourself:**
+- Can you implement a distributed caching system?
+- What if you need to handle cache consistency across multiple processes?
+
+**If you can't solve this, review:** Caching strategies, memoization, performance optimization
+
+**⚡ Caching:** Avoid expensive computations with smart caching!
+
+---
+
+### Question 35: Metaprogramming and Function Generation ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 40 minutes  
+**🎯 Category:** Advanced Python  
+**📝 Skills Tested:** Metaprogramming, function generation, dynamic code
+
+**Task:** Use metaprogramming to generate functions dynamically at runtime.
+
+**Real-life Scenario:** You're building a code generation tool:
+- Generate functions based on configuration
+- Create dynamic APIs from data schemas
+- Implement plugin systems with dynamic function loading
+- Build domain-specific languages with function generation
+
+**Think about:**
+- When is metaprogramming the right solution?
+- How do you ensure generated code is safe and correct?
+- What are the performance implications of dynamic code generation?
+
+**Challenge yourself:**
+- Can you create a function generator for database operations?
+- What if you need to generate functions with complex type annotations?
+
+**If you can't solve this, review:** Metaprogramming, function generation, dynamic code
+
+**🔮 Metaprogramming:** Generate code that writes code!
+
+---
+
+## 🎯 **Updated Study Progress Summary**
+
+### 📈 **Completion Status:**
+
+- 🟢 **Basic Level:** 0/6 completed
+- 🟡 **Intermediate Level:** 0/6 completed
+- 🟠 **Advanced Level:** 0/5 completed
+- 🔴 **Expert Level:** 0/3 completed
+- 🆕 **Additional Practice:** 0/10 completed
+
+### ⏱️ **Total Estimated Time:** 14 hours 30 minutes
+
+### 🎓 **Next Steps:**
+
+1. Start with Basic Level questions (1-6)
+2. Move to Intermediate when comfortable
+3. Challenge yourself with Advanced concepts
+4. Master Expert level for real-world scenarios
+5. Practice with Additional Questions (21-35) featuring modern Python features
+
+---
+
+> **💡 Pro Tip:** Modern Python features like type parameters and Self types make functions more powerful and type-safe!
+
+---
+
 _Happy Learning! Remember, functions are the building blocks of modular and maintainable code! 🔧✨_
 
 ---

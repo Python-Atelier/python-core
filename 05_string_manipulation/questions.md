@@ -977,6 +977,179 @@
 
 ---
 
+## 🆕 **Additional Practice Questions** (31-35)
+
+### Question 31: Enhanced F-strings and Modern Formatting ⭐⭐⭐
+
+**⏱️ Time Estimate:** 25 minutes  
+**🎯 Category:** Modern Formatting  
+**📝 Skills Tested:** Enhanced f-strings, PEP 701, complex expressions
+
+**Task:** Use Python 3.12+ enhanced f-strings with complex expressions and multi-line formatting.
+
+**Real-life Scenario:** You're building a dynamic report generator:
+- Include complex calculations directly in f-strings
+- Use multi-line f-strings for formatted output
+- Handle quotes and special characters in expressions
+- Create dynamic templates based on data types
+
+**Think about:**
+- How do enhanced f-strings improve code readability?
+- When should you use f-strings vs other formatting methods?
+- How do you handle complex expressions within f-strings?
+
+**Challenge yourself:**
+- Can you create a dynamic SQL query builder using f-strings?
+- What if you need to format nested data structures with complex expressions?
+
+**If you can't solve this, review:** Enhanced f-strings, PEP 701, string formatting, complex expressions
+
+**💬 Enhanced F-strings:** Support any valid Python expression and multi-line formatting!
+
+---
+
+### Question 32: Unicode Normalization and Text Processing ⭐⭐⭐
+
+**⏱️ Time Estimate:** 30 minutes  
+**🎯 Category:** Unicode Handling  
+**📝 Skills Tested:** Unicode normalization, text processing, internationalization
+
+**Task:** Handle Unicode text properly with normalization and advanced text processing.
+
+**Real-life Scenario:** You're building a multilingual search engine:
+- Normalize Unicode text for consistent searching
+- Handle different character encodings and representations
+- Process text in multiple languages
+- Implement proper text comparison and sorting
+
+**Think about:**
+- How do you ensure consistent text representation?
+- What are the different Unicode normalization forms?
+- How do you handle text in different scripts and languages?
+
+**Challenge yourself:**
+- Can you implement a text similarity checker that works across languages?
+- What if you need to handle emoji and special symbols?
+
+**If you can't solve this, review:** Unicode normalization, text processing, internationalization
+
+**🌍 Unicode Handling:** Process text correctly across different languages and scripts!
+
+---
+
+### Question 33: Advanced Regular Expressions and Pattern Matching ⭐⭐⭐
+
+**⏱️ Time Estimate:** 35 minutes  
+**🎯 Category:** Pattern Matching  
+**📝 Skills Tested:** Advanced regex, pattern matching, text extraction
+
+**Task:** Use advanced regular expressions for complex text processing and pattern matching.
+
+**Real-life Scenario:** You're building a log analysis tool:
+- Extract structured data from unstructured log files
+- Handle complex patterns with multiple capture groups
+- Process nested and hierarchical data structures
+- Implement efficient pattern matching for large files
+
+**Think about:**
+- How do you write efficient and readable regular expressions?
+- When should you use regex vs other text processing methods?
+- How do you handle performance with complex patterns?
+
+**Challenge yourself:**
+- Can you implement a log parser that extracts multiple data types?
+- What if you need to handle malformed or inconsistent text?
+
+**If you can't solve this, review:** Advanced regex, pattern matching, text extraction
+
+**🔍 Pattern Matching:** Extract structured data from unstructured text!
+
+---
+
+### Question 34: Text Mining and Natural Language Processing ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 40 minutes  
+**🎯 Category:** NLP and Text Analysis  
+**📝 Skills Tested:** Text mining, NLP, sentiment analysis, text classification
+
+**Task:** Implement text mining and natural language processing techniques.
+
+**Real-life Scenario:** You're building a content analysis system:
+- Extract key topics and themes from text
+- Perform sentiment analysis on user reviews
+- Classify text into different categories
+- Generate summaries and insights from large text corpora
+
+**Think about:**
+- How do you preprocess text for analysis?
+- Which NLP techniques are most effective for your use case?
+- How do you handle different languages and text types?
+
+**Challenge yourself:**
+- Can you implement a document similarity checker?
+- What if you need to handle real-time text analysis?
+
+**If you can't solve this, review:** Text mining, NLP, sentiment analysis, text classification
+
+**🧠 Text Analysis:** Extract insights from text using NLP techniques!
+
+---
+
+### Question 35: String-Based Data Structures and Algorithms ⭐⭐⭐⭐
+
+**⏱️ Time Estimate:** 45 minutes  
+**🎯 Category:** Advanced Algorithms  
+**📝 Skills Tested:** String algorithms, data structures, performance optimization
+
+**Task:** Implement advanced string-based data structures and algorithms.
+
+**Real-life Scenario:** You're building a search engine:
+- Implement efficient string indexing and searching
+- Handle large text corpora with minimal memory usage
+- Support fuzzy matching and approximate string matching
+- Optimize for different search patterns and queries
+
+**Think about:**
+- Which string algorithms are most efficient for your use case?
+- How do you handle memory constraints with large text datasets?
+- What are the trade-offs between accuracy and performance?
+
+**Challenge yourself:**
+- Can you implement a full-text search engine?
+- What if you need to handle real-time search with millions of documents?
+
+**If you can't solve this, review:** String algorithms, data structures, performance optimization
+
+**🔍 Advanced Search:** Build efficient search systems with string algorithms!
+
+---
+
+## 🎯 **Updated Study Progress Summary**
+
+### 📈 **Completion Status:**
+
+- 🟢 **Basic Level:** 0/6 completed
+- 🟡 **Intermediate Level:** 0/6 completed
+- 🟠 **Advanced Level:** 0/5 completed
+- 🔴 **Expert Level:** 0/3 completed
+- 🆕 **Additional Practice:** 0/10 completed
+
+### ⏱️ **Total Estimated Time:** 15 hours 45 minutes
+
+### 🎓 **Next Steps:**
+
+1. Start with Basic Level questions (1-6)
+2. Move to Intermediate when comfortable
+3. Challenge yourself with Advanced concepts
+4. Master Expert level for real-world scenarios
+5. Practice with Additional Questions (21-35) featuring modern Python features
+
+---
+
+> **💡 Pro Tip:** Modern Python features like enhanced f-strings and advanced Unicode handling make text processing more powerful and reliable!
+
+---
+
 _Happy Learning! Remember, string manipulation is fundamental to most real-world applications! 📝✨_
 
 ---
