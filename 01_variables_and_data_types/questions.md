@@ -13,876 +13,905 @@
 
 ---
 
-## 🟢 **Basic Level Questions** (1-6)
+## 🟢 **Basic Level Questions** (1-10)
 
-### Question 1: Variable Declaration and Assignment ⭐
+### Question 1: Creating Your First Variables ⭐
+
+**⏱️ Time Estimate:** 3 minutes  
+**🎯 Category:** Basic Types  
+**📝 Skills Tested:** Variable creation, assignment
+
+**Task:** Create simple variables to store basic information.
+
+**What to do:**
+
+- Create a variable called `name` and store your name in it
+- Create a variable called `age` and store your age as a number
+- Create a variable called `is_student` and store `True` or `False`
+
+**Example:**
+
+```python
+name = "Alice"
+age = 25
+is_student = True
+```
+
+**Think about:**
+
+- What types of data are you storing?
+- How do you choose good variable names?
+
+**💡 Tip:** Use descriptive names that explain what the variable contains!
+
+---
+
+### Question 2: Understanding Different Data Types ⭐
 
 **⏱️ Time Estimate:** 5 minutes  
-**🎯 Category:** Basic Types  
-**📝 Skills Tested:** Variable naming, data types
+**🎯 Category:** Data Types  
+**📝 Skills Tested:** String, integer, float, boolean
 
-**Task:** Create variables to store different types of information about a person.
+**Task:** Create variables of different data types and check their types.
 
-**Real-life Scenario:** You're building a user profile system for a website:
+**What to do:**
 
-- Store person's name (text)
-- Store person's age (whole number)
-- Store person's height (decimal number)
-- Store whether person is a student (true/false)
+- Create a string variable (text in quotes)
+- Create an integer variable (whole number)
+- Create a float variable (decimal number)
+- Create a boolean variable (True or False)
+- Use `type()` to check what type each variable is
+
+**Example:**
+
+```python
+text = "Hello World"
+number = 42
+decimal = 3.14
+is_true = True
+
+print(type(text))    # Should show: <class 'str'>
+print(type(number))  # Should show: <class 'int'>
+```
 
 **Think about:**
 
-- What types of data are you storing and how do they differ?
-- How do you choose appropriate names for your variables?
-- What happens when you need to store different kinds of information?
-
-**Challenge yourself:**
-
-- Can you create variables for additional person information (email, phone, address)?
-- What if you need to store multiple people's information?
-
-**If you can't solve this, review:** Variable naming rules, basic data types (str, int, float, bool)
-
-**💡 Pro Tip:** Use snake_case for variable names in Python!
+- What's the difference between `42` and `"42"`?
+- When would you use each data type?
 
 ---
 
-### Question 2: Understanding Data Type Conversion ⭐
+### Question 3: Basic Math with Variables ⭐
+
+**⏱️ Time Estimate:** 5 minutes  
+**🎯 Category:** Numbers  
+**📝 Skills Tested:** Arithmetic operations
+
+**Task:** Use variables to perform simple calculations.
+
+**What to do:**
+
+- Create two number variables (like `a = 10` and `b = 5`)
+- Add them together and store the result in a new variable
+- Subtract them and store the result
+- Multiply them and store the result
+- Print all results
+
+**Example:**
+
+```python
+a = 10
+b = 5
+
+sum_result = a + b
+difference = a - b
+product = a * b
+
+print(f"Sum: {sum_result}")
+print(f"Difference: {difference}")
+print(f"Product: {product}")
+```
+
+**Think about:**
+
+- Can you use the same variable name for different results?
+- What happens if you change the values of `a` and `b`?
+
+---
+
+### Question 4: Working with Strings ⭐
+
+**⏱️ Time Estimate:** 5 minutes  
+**🎯 Category:** Strings  
+**📝 Skills Tested:** String operations
+
+**Task:** Create and combine strings using variables.
+
+**What to do:**
+
+- Create a variable with your first name
+- Create a variable with your last name
+- Combine them to create your full name
+- Print your full name
+
+**Example:**
+
+```python
+first_name = "John"
+last_name = "Doe"
+full_name = first_name + " " + last_name
+print(full_name)  # Should print: John Doe
+```
+
+**Think about:**
+
+- What happens if you try to add a string and a number?
+- How can you add a space between the names?
+
+---
+
+### Question 5: Converting Between Types ⭐
+
+**⏱️ Time Estimate:** 5 minutes  
+**🎯 Category:** Type Conversion  
+**📝 Skills Tested:** Basic type conversion
+
+**Task:** Convert between different data types.
+
+**What to do:**
+
+- Create a string variable with a number (like `"123"`)
+- Convert it to an integer using `int()`
+- Create a float variable (like `3.14`)
+- Convert it to an integer using `int()`
+- Print the results
+
+**Example:**
+
+```python
+number_string = "123"
+number_int = int(number_string)
+print(number_int)  # Should print: 123
+
+decimal_number = 3.14
+whole_number = int(decimal_number)
+print(whole_number)  # Should print: 3
+```
+
+**Think about:**
+
+- What happens when you convert `3.14` to an integer?
+- Can you convert any string to a number?
+
+---
+
+### Question 6: Using Variables in Calculations ⭐
+
+**⏱️ Time Estimate:** 5 minutes  
+**🎯 Category:** Practical Application  
+**📝 Skills Tested:** Real-world variable usage
+
+**Task:** Calculate the area of a rectangle using variables.
+
+**What to do:**
+
+- Create variables for length and width of a rectangle
+- Calculate the area (length × width)
+- Store the result in a variable
+- Print the result
+
+**Example:**
+
+```python
+length = 10
+width = 5
+area = length * width
+print(f"The area is: {area}")
+```
+
+**Think about:**
+
+- What if you want to calculate the area of a different rectangle?
+- How can you make this calculation reusable?
+
+---
+
+### Question 7: Boolean Variables ⭐
+
+**⏱️ Time Estimate:** 3 minutes  
+**🎯 Category:** Booleans  
+**📝 Skills Tested:** True/False values
+
+**Task:** Work with boolean variables.
+
+**What to do:**
+
+- Create a variable `is_sunny` and set it to `True` or `False`
+- Create a variable `is_raining` and set it to the opposite
+- Print both variables
+
+**Example:**
+
+```python
+is_sunny = True
+is_raining = False
+print(f"Sunny: {is_sunny}")
+print(f"Raining: {is_raining}")
+```
+
+**Think about:**
+
+- When would you use `True` vs `False`?
+- Can you think of other yes/no situations?
+
+---
+
+### Question 8: Updating Variables ⭐
+
+**⏱️ Time Estimate:** 3 minutes  
+**🎯 Category:** Variable Assignment  
+**📝 Skills Tested:** Changing variable values
+
+**Task:** Update the value of a variable.
+
+**What to do:**
+
+- Create a variable called `score` and set it to 0
+- Print the score
+- Update the score to 100
+- Print the score again
+
+**Example:**
+
+```python
+score = 0
+print(f"Score: {score}")
+
+score = 100
+print(f"Score: {score}")
+```
+
+**Think about:**
+
+- What happens to the old value when you update a variable?
+- Can you update a variable multiple times?
+
+---
+
+### Question 9: Combining Different Data Types ⭐
+
+**⏱️ Time Estimate:** 5 minutes  
+**🎯 Category:** Mixed Types  
+**📝 Skills Tested:** Working with different types
+
+**Task:** Create a simple profile using different data types.
+
+**What to do:**
+
+- Create variables for: name (string), age (integer), height (float), is_student (boolean)
+- Print all the information in a nice format
+
+**Example:**
+
+```python
+name = "Alice"
+age = 20
+height = 5.6
+is_student = True
+
+print(f"Name: {name}")
+print(f"Age: {age}")
+print(f"Height: {height} feet")
+print(f"Is student: {is_student}")
+```
+
+**Think about:**
+
+- How can you make the output look better?
+- What other information could you add?
+
+---
+
+### Question 10: Simple Input and Variables ⭐
+
+**⏱️ Time Estimate:** 5 minutes  
+**🎯 Category:** User Input  
+**📝 Skills Tested:** Getting user input
+
+**Task:** Get input from the user and store it in variables.
+
+**What to do:**
+
+- Ask the user for their name using `input()`
+- Store the input in a variable
+- Ask the user for their age
+- Convert the age to an integer
+- Print a greeting with their information
+
+**Example:**
+
+```python
+name = input("What is your name? ")
+age_string = input("What is your age? ")
+age = int(age_string)
+
+print(f"Hello {name}, you are {age} years old!")
+```
+
+**Think about:**
+
+- What type does `input()` return?
+- Why do you need to convert the age to an integer?
+
+---
+
+## 🟡 **Intermediate Level Questions** (11-15)
+
+### Question 11: Multiple Variables in One Line ⭐⭐
+
+**⏱️ Time Estimate:** 3 minutes  
+**🎯 Category:** Assignment  
+**📝 Skills Tested:** Multiple assignment
+
+**Task:** Assign multiple variables at once.
+
+**What to do:**
+
+- Assign three different values to three variables in one line
+- Print all three variables
+
+**Example:**
+
+```python
+x, y, z = 1, 2, 3
+print(f"x = {x}, y = {y}, z = {z}")
+```
+
+**Think about:**
+
+- How many values do you need for three variables?
+- What happens if you have more variables than values?
+
+---
+
+### Question 12: Swapping Variables ⭐⭐
+
+**⏱️ Time Estimate:** 3 minutes  
+**🎯 Category:** Variable Manipulation  
+**📝 Skills Tested:** Variable swapping
+
+**Task:** Swap the values of two variables.
+
+**What to do:**
+
+- Create two variables with different values
+- Swap their values
+- Print both variables before and after
+
+**Example:**
+
+```python
+a = 10
+b = 20
+print(f"Before: a = {a}, b = {b}")
+
+a, b = b, a
+print(f"After: a = {a}, b = {b}")
+```
+
+**Think about:**
+
+- How many lines of code do you need to swap variables?
+- What happens to the original values?
+
+---
+
+### Question 13: String Formatting with Variables ⭐⭐
+
+**⏱️ Time Estimate:** 5 minutes  
+**🎯 Category:** String Formatting  
+**📝 Skills Tested:** f-strings
+
+**Task:** Use f-strings to format output with variables.
+
+**What to do:**
+
+- Create variables for a product name and price
+- Use f-strings to create a nice product description
+- Print the formatted string
+
+**Example:**
+
+```python
+product = "Laptop"
+price = 999.99
+description = f"The {product} costs ${price}"
+print(description)
+```
+
+**Think about:**
+
+- How do f-strings make output formatting easier?
+- Can you use expressions inside f-strings?
+
+---
+
+### Question 14: Simple Calculator with Variables ⭐⭐
 
 **⏱️ Time Estimate:** 8 minutes  
-**🎯 Category:** Type Conversion  
-**📝 Skills Tested:** Type casting, conversion methods
+**🎯 Category:** Practical Application  
+**📝 Skills Tested:** Variables in calculations
 
-**Task:** Demonstrate type conversion between different data types.
+**Task:** Create a simple calculator using variables.
 
-**Real-life Scenario:** You're processing user input from a web form:
+**What to do:**
 
-- Convert user age input (string) to a number
-- Convert price calculations (float) to display format (string)
-- Handle different data formats safely
+- Create variables for two numbers
+- Calculate and store: sum, difference, product, quotient
+- Print all results
+
+**Example:**
+
+```python
+num1 = 15
+num2 = 3
+
+sum_result = num1 + num2
+difference = num1 - num2
+product = num1 * num2
+quotient = num1 / num2
+
+print(f"Sum: {sum_result}")
+print(f"Difference: {difference}")
+print(f"Product: {product}")
+print(f"Quotient: {quotient}")
+```
 
 **Think about:**
 
-- What happens when you try to use different types together?
-- How can you safely convert between different data types?
-- What might go wrong during type conversion?
-
-**Challenge yourself:**
-
-- Can you handle conversion errors gracefully?
-- What if you need to validate the converted data?
-
-**If you can't solve this, review:** Type conversion functions, implicit vs explicit conversion
-
-**⚠️ Common Mistake:** Forgetting that `int("3.14")` will raise a ValueError!
+- What happens if you divide by zero?
+- How can you make the output more readable?
 
 ---
 
-### Question 3: Working with Numbers ⭐
+### Question 15: Temperature Conversion ⭐⭐
+
+**⏱️ Time Estimate:** 8 minutes  
+**🎯 Category:** Real-world Application  
+**📝 Skills Tested:** Formula implementation
+
+**Task:** Convert temperature from Celsius to Fahrenheit.
+
+**What to do:**
+
+- Create a variable for temperature in Celsius
+- Use the formula: Fahrenheit = (Celsius × 9/5) + 32
+- Store the result in a variable
+- Print both temperatures
+
+**Example:**
+
+```python
+celsius = 25
+fahrenheit = (celsius * 9/5) + 32
+print(f"{celsius}°C is equal to {fahrenheit}°F")
+```
+
+**Think about:**
+
+- What happens if you change the Celsius temperature?
+- How can you make this conversion reusable?
+
+---
+
+## 🟠 **Advanced Level Questions** (16-20)
+
+### Question 16: Working with Constants ⭐⭐
+
+**⏱️ Time Estimate:** 5 minutes  
+**🎯 Category:** Constants  
+**📝 Skills Tested:** Constant naming
+
+**Task:** Create constants for mathematical values.
+
+**What to do:**
+
+- Create constants for PI (3.14159) and GRAVITY (9.81)
+- Use them in a calculation (like area of a circle)
+- Print the result
+
+**Example:**
+
+```python
+PI = 3.14159
+GRAVITY = 9.81
+
+radius = 5
+area = PI * radius * radius
+print(f"Area of circle: {area}")
+```
+
+**Think about:**
+
+- Why use uppercase for constants?
+- What makes a value a "constant"?
+
+---
+
+### Question 17: String Operations with Variables ⭐⭐
+
+**⏱️ Time Estimate:** 8 minutes  
+**🎯 Category:** String Methods  
+**📝 Skills Tested:** String manipulation
+
+**Task:** Manipulate strings using variables.
+
+**What to do:**
+
+- Create a variable with a sentence
+- Create variables for the length, uppercase version, and lowercase version
+- Print all the information
+
+**Example:**
+
+```python
+sentence = "Hello World"
+length = len(sentence)
+upper_case = sentence.upper()
+lower_case = sentence.lower()
+
+print(f"Original: {sentence}")
+print(f"Length: {length}")
+print(f"Uppercase: {upper_case}")
+print(f"Lowercase: {lower_case}")
+```
+
+**Think about:**
+
+- What does `len()` tell you about a string?
+- How do string methods work?
+
+---
+
+### Question 18: Simple Data Validation ⭐⭐
+
+**⏱️ Time Estimate:** 8 minutes  
+**🎯 Category:** Input Validation  
+**📝 Skills Tested:** Type checking
+
+**Task:** Validate user input and convert it safely.
+
+**What to do:**
+
+- Get a number from the user
+- Check if it can be converted to an integer
+- If yes, convert it; if no, use a default value
+- Print the result
+
+**Example:**
+
+```python
+user_input = input("Enter a number: ")
+
+if user_input.isdigit():
+    number = int(user_input)
+else:
+    number = 0
+
+print(f"The number is: {number}")
+```
+
+**Think about:**
+
+- What happens if the user enters "abc"?
+- How can you handle different types of invalid input?
+
+---
+
+### Question 19: Working with Multiple Data Types ⭐⭐
 
 **⏱️ Time Estimate:** 10 minutes  
-**🎯 Category:** Basic Types  
-**📝 Skills Tested:** Arithmetic operations, numeric types
+**🎯 Category:** Mixed Operations  
+**📝 Skills Tested:** Type handling
 
-**Task:** Perform various mathematical operations and understand numeric data types.
+**Task:** Create a simple inventory system.
 
-**Real-life Scenario:** You're building a simple calculator for a retail store:
+**What to do:**
 
-- Calculate total prices with tax
-- Determine change from customer payments
-- Track inventory quantities
-- Calculate discounts and sales
+- Create variables for: item name (string), quantity (integer), price (float), in_stock (boolean)
+- Calculate total value (quantity × price)
+- Print a formatted inventory report
+
+**Example:**
+
+```python
+item_name = "Laptop"
+quantity = 5
+price = 999.99
+in_stock = True
+
+total_value = quantity * price
+
+print(f"Item: {item_name}")
+print(f"Quantity: {quantity}")
+print(f"Price: ${price}")
+print(f"In Stock: {in_stock}")
+print(f"Total Value: ${total_value}")
+```
 
 **Think about:**
 
-- What mathematical operations do you need for basic calculations?
-- How do different number types behave in calculations?
-- What happens when you divide numbers?
-
-**Challenge yourself:**
-
-- Can you implement a tip calculator with different percentages?
-- What if you need to handle currency formatting?
-
-**If you can't solve this, review:** Numeric types, arithmetic operators, division in Python
-
-**🔢 Quick Reference:** `//` = floor division, `/` = true division
+- How can you format the price to show only 2 decimal places?
+- What if the item is out of stock?
 
 ---
 
-### Question 4: String Operations and Methods ⭐⭐
+### Question 20: Simple Game Score System ⭐⭐
+
+**⏱️ Time Estimate:** 10 minutes  
+**🎯 Category:** Game Logic  
+**📝 Skills Tested:** Variable updates
+
+**Task:** Create a simple scoring system.
+
+**What to do:**
+
+- Start with a score of 0
+- Add points for different actions (like +10 for correct answer, +5 for bonus)
+- Keep track of total questions answered
+- Print the final score and average
+
+**Example:**
+
+```python
+score = 0
+questions_answered = 0
+
+# Simulate some game actions
+score += 10  # Correct answer
+questions_answered += 1
+
+score += 5   # Bonus
+questions_answered += 1
+
+score += 10  # Another correct answer
+questions_answered += 1
+
+average = score / questions_answered
+
+print(f"Final Score: {score}")
+print(f"Questions Answered: {questions_answered}")
+print(f"Average Score: {average}")
+```
+
+**Think about:**
+
+- How can you make this more interactive?
+- What happens if no questions are answered?
+
+---
+
+## 🔴 **Expert Level Questions** (21-25)
+
+### Question 21: Advanced String Formatting ⭐⭐⭐
 
 **⏱️ Time Estimate:** 12 minutes  
-**🎯 Category:** String Manipulation  
-**📝 Skills Tested:** String methods, immutability
+**🎯 Category:** Advanced Formatting  
+**📝 Skills Tested:** Complex string formatting
 
-**Task:** Manipulate strings using various string methods and operations.
+**Task:** Create a formatted receipt using variables.
 
-**Real-life Scenario:** You're building a text processing system for a content management platform:
+**What to do:**
 
-- Format user names consistently
-- Clean up user input data
-- Extract information from text
-- Validate text formats
+- Create variables for item details, prices, and quantities
+- Calculate subtotal, tax, and total
+- Format everything as a professional receipt
 
-**Think about:**
+**Example:**
 
-- How can you change the appearance of text without losing the original?
-- What operations help you find and extract parts of text?
-- How do you combine or split text data?
+```python
+item1_name = "Coffee"
+item1_price = 3.50
+item1_qty = 2
 
-**Challenge yourself:**
+item2_name = "Sandwich"
+item2_price = 8.99
+item2_qty = 1
 
-- Can you implement a simple text search function?
-- What if you need to handle text in different languages?
+subtotal = (item1_price * item1_qty) + (item2_price * item2_qty)
+tax_rate = 0.08
+tax = subtotal * tax_rate
+total = subtotal + tax
 
-**If you can't solve this, review:** String methods, string immutability, slicing
-
-**📝 Remember:** Strings are immutable - methods return new strings!
-
----
-
-### Question 5: Boolean Logic and Comparisons ⭐⭐
-
-**⏱️ Time Estimate:** 10 minutes  
-**🎯 Category:** Logic & Control  
-**📝 Skills Tested:** Boolean operations, comparison operators
-
-**Task:** Work with boolean values and comparison operators.
-
-**Real-life Scenario:** You're building a user authentication system:
-
-- Check if user is logged in
-- Validate user permissions
-- Determine access levels
-- Handle conditional logic
-
-**Think about:**
-
-- How do you compare values to make decisions?
-- What happens when you combine multiple conditions?
-- How do you check if something is true or false?
-
-**Challenge yourself:**
-
-- Can you implement a simple access control system?
-- What if you need to handle complex permission combinations?
-
-**If you can't solve this, review:** Boolean logic, comparison operators, truthy/falsy values
-
-**🎯 Key Difference:** `=` assigns, `==` compares!
+print("=== RECEIPT ===")
+print(f"{item1_name} x{item1_qty}: ${item1_price * item1_qty:.2f}")
+print(f"{item2_name} x{item2_qty}: ${item2_price * item2_qty:.2f}")
+print(f"Subtotal: ${subtotal:.2f}")
+print(f"Tax: ${tax:.2f}")
+print(f"Total: ${total:.2f}")
+```
 
 ---
 
-### Question 6: Complex Data Types Introduction ⭐⭐
+### Question 22: Data Type Conversion Challenge ⭐⭐⭐
 
 **⏱️ Time Estimate:** 15 minutes  
-**🎯 Category:** Data Structures  
-**📝 Skills Tested:** Lists, tuples, dictionaries
+**🎯 Category:** Type Conversion  
+**📝 Skills Tested:** Complex conversions
 
-**Task:** Create and understand basic complex data types.
+**Task:** Handle various data type conversions safely.
 
-**Real-life Scenario:** You're building a simple contact management system:
+**What to do:**
 
-- Store multiple phone numbers for a person
-- Keep track of person's location coordinates
-- Store person's personal information (name, age, email)
+- Create a function that safely converts different inputs
+- Handle strings, integers, floats, and booleans
+- Provide meaningful error messages
 
-**Think about:**
+**Example:**
 
-- How do you organize multiple related pieces of information?
-- What happens when you need to group data together?
-- How do you access specific information from a collection?
+```python
+def safe_convert(value, target_type):
+    try:
+        if target_type == "int":
+            return int(value)
+        elif target_type == "float":
+            return float(value)
+        elif target_type == "str":
+            return str(value)
+        elif target_type == "bool":
+            return bool(value)
+    except ValueError:
+        return f"Error: Cannot convert '{value}' to {target_type}"
 
-**Challenge yourself:**
-
-- Can you create a system that stores multiple contacts?
-- What if you need to search through the contact information?
-
-**If you can't solve this, review:** Lists, tuples, dictionaries, indexing
-
-**📊 Quick Guide:** Lists = mutable, Tuples = immutable, Dicts = key-value pairs
+# Test the function
+print(safe_convert("123", "int"))
+print(safe_convert("3.14", "float"))
+print(safe_convert("abc", "int"))
+```
 
 ---
 
-## 🟡 **Intermediate Level Questions** (7-12)
+### Question 23: Variable Scope Understanding ⭐⭐⭐
 
-### Question 7: Variable Scope and Lifetime ⭐⭐⭐
-
-**⏱️ Time Estimate:** 20 minutes  
-**🎯 Category:** Advanced Concepts  
-**📝 Skills Tested:** Scope rules, variable lifetime
+**⏱️ Time Estimate:** 15 minutes  
+**🎯 Category:** Scope  
+**📝 Skills Tested:** Variable scope rules
 
 **Task:** Understand how variables work in different scopes.
 
 **What to do:**
 
-- Create variables in global scope and demonstrate how they can be accessed
-- Show the difference between local and global variables, and understand variable lifetime
+- Create global variables
+- Create a function that uses and modifies variables
+- Demonstrate scope rules
 
-**What NOT to do:**
+**Example:**
 
-- Don't assume all variables are accessible everywhere
-- Don't forget to use the 'global' keyword when modifying global variables inside functions
-- Don't create variables with the same name in different scopes without understanding shadowing
+```python
+global_score = 100
 
-**If you can't solve this, review:** Variable scope, global vs local variables, lifetime of variables
+def update_score(points):
+    global global_score
+    local_score = 50
+    global_score += points
+    print(f"Local score: {local_score}")
+    print(f"Global score: {global_score}")
 
-**🌍 Scope Rule:** LEGB (Local → Enclosing → Global → Built-in)
-
----
-
-### Question 8: Type Checking and Validation ⭐⭐⭐
-
-**⏱️ Time Estimate:** 18 minutes  
-**🎯 Category:** Type Safety  
-**📝 Skills Tested:** Type checking, validation
-
-**Task:** Check and validate data types of variables.
-
-**What to do:**
-
-- Use type() function and isinstance() function to check data types
-- Create a function that validates if a variable is of a specific type and returns appropriate boolean values
-
-**What NOT to do:**
-
-- Don't rely solely on type() for type checking
-- Don't forget that isinstance() is preferred for type checking
-- Don't ignore that some objects can be instances of multiple types
-
-**If you can't solve this, review:** type(), isinstance(), type validation
-
-**🔍 Best Practice:** Use `isinstance()` over `type()` for type checking!
+print(f"Initial global score: {global_score}")
+update_score(25)
+print(f"Final global score: {global_score}")
+```
 
 ---
 
-### Question 9: Memory and Object Identity ⭐⭐⭐
-
-**⏱️ Time Estimate:** 25 minutes  
-**🎯 Category:** Memory Management  
-**📝 Skills Tested:** Object identity, memory concepts
-
-**Task:** Understand object identity and memory management.
-
-**What to do:**
-
-- Use the 'is' operator to compare object identity vs the '==' operator for value equality
-- Demonstrate how Python handles small integers and string interning
-
-**What NOT to do:**
-
-- Don't use 'is' for value comparison
-- Don't assume all equal values have the same identity
-- Don't forget that 'is' checks for the same object in memory
-
-**If you can't solve this, review:** Object identity, 'is' vs '==', memory management basics
-
-**🧠 Memory Tip:** Small integers (-5 to 256) are cached for performance!
-
----
-
-### Question 10: Advanced Data Types and Special Values ⭐⭐⭐
-
-**⏱️ Time Estimate:** 20 minutes  
-**🎯 Category:** Special Values  
-**📝 Skills Tested:** None, True, False handling
-
-**Task:** Work with special values and understand their behavior.
-
-**What to do:**
-
-- Create variables with None, True, False, and demonstrate their behavior in different contexts
-- Show how to check for these special values and understand their boolean interpretation
-
-**What NOT to do:**
-
-- Don't use None as a default parameter value without understanding mutable default arguments
-- Don't forget that None is a singleton object
-- Don't confuse None with empty containers or zero values
-
-**If you can't solve this, review:** None, True, False, boolean context, special values
-
-**🎭 Special Values:** None = absence of value, True/False = boolean constants
-
----
-
-### Question 11: Variable Naming Pitfalls in Real Projects ⭐⭐
-
-**⏱️ Time Estimate:** 15 minutes  
-**🎯 Category:** Best Practices  
-**📝 Skills Tested:** Naming conventions, code quality
-
-**Task:** Refactor a set of poorly named variables from a real-life script (e.g., x1, y2, z3) to meaningful names.
-
-**What to do:**
-
-- Identify unclear variable names and rename them to reflect their purpose in a real-world context (e.g., user_age, product_price)
-
-**What NOT to do:**
-
-- Don't use abbreviations that are not obvious
-- Don't use single-letter names except for counters
-
-**If you can't solve this, review:** Naming conventions, code readability, PEP8 guidelines
-
-**📝 PEP8 Rule:** Use descriptive names that reveal intent!
-
----
-
-### Question 12: Debugging Type Errors in User Input ⭐⭐
-
-**⏱️ Time Estimate:** 12 minutes  
-**🎯 Category:** Error Handling  
-**📝 Skills Tested:** Input validation, error handling
-
-**Task:** Simulate a scenario where user input is always a string, but you need an integer for calculations.
-
-**What to do:**
-
-- Convert user input to the correct type and handle possible conversion errors
-
-**What NOT to do:**
-
-- Don't assume input() returns the correct type
-- Don't ignore ValueError exceptions
-
-**If you can't solve this, review:** input(), type conversion, exception handling basics
-
-**🛡️ Defensive Programming:** Always validate user input!
-
----
-
-## 🟠 **Advanced Level Questions** (13-17)
-
-### Question 13: Floating Point Precision in Financial Calculations ⭐⭐⭐
-
-**⏱️ Time Estimate:** 30 minutes  
-**🎯 Category:** Precision & Accuracy  
-**📝 Skills Tested:** Decimal arithmetic, financial calculations
-
-**Task:** Calculate the total price for a list of items with floating point prices and quantities.
-
-**What to do:**
-
-- Use the decimal module to avoid floating point rounding errors in financial calculations
-
-**What NOT to do:**
-
-- Don't use float for money
-- Don't ignore rounding issues
-
-**If you can't solve this, review:** float vs decimal, rounding, financial calculations in Python
-
-**💰 Financial Rule:** Never use float for money - use Decimal!
-
----
-
-### Question 14: Mutability Confusion in Lists vs Tuples ⭐⭐
+### Question 24: Complex Data Structure Basics ⭐⭐⭐
 
 **⏱️ Time Estimate:** 20 minutes  
 **🎯 Category:** Data Structures  
-**📝 Skills Tested:** Mutability concepts
+**📝 Skills Tested:** Lists and dictionaries
 
-**Task:** Given a function that tries to modify both a list and a tuple, explain and fix the error.
+**Task:** Work with basic data structures.
 
 **What to do:**
 
-- Show which operations are allowed on lists but not on tuples, and refactor the code accordingly
+- Create a list of numbers
+- Create a dictionary with person information
+- Access and modify the data
 
-**What NOT to do:**
+**Example:**
 
-- Don't try to append or modify tuples
-- Don't confuse list and tuple methods
+```python
+# List of scores
+scores = [85, 92, 78, 96, 88]
+average_score = sum(scores) / len(scores)
 
-**If you can't solve this, review:** Mutability, list methods, tuple immutability
+# Dictionary of person
+person = {
+    "name": "Alice",
+    "age": 25,
+    "city": "New York"
+}
 
-**🔄 Mutability:** Lists = changeable, Tuples = unchangeable
+print(f"Scores: {scores}")
+print(f"Average: {average_score}")
+print(f"Person: {person['name']} is {person['age']} years old")
+```
 
 ---
 
-### Question 15: Chained Assignment and Unexpected Results ⭐⭐⭐
+### Question 25: Real-world Application Project ⭐⭐⭐
 
 **⏱️ Time Estimate:** 25 minutes  
-**🎯 Category:** Assignment Behavior  
-**📝 Skills Tested:** Reference semantics, assignment behavior
+**🎯 Category:** Project  
+**📝 Skills Tested:** All concepts combined
 
-**Task:** Investigate a bug where changing one variable unexpectedly changes another (e.g., a = b = []).
-
-**What to do:**
-
-- Explain why this happens and how to avoid it
-
-**What NOT to do:**
-
-- Don't use chained assignment for mutable objects unless intended
-
-**If you can't solve this, review:** Assignment, references, mutability, Python memory model
-
-**🔗 Reference Behavior:** Multiple variables can point to the same object!
-
----
-
-### Question 16: Real-World Data Validation ⭐⭐⭐
-
-**⏱️ Time Estimate:** 35 minutes  
-**🎯 Category:** Data Validation  
-**📝 Skills Tested:** Validation logic, error handling
-
-**Task:** Validate a user profile dictionary to ensure all required fields are present and of the correct type.
+**Task:** Create a simple student grade calculator.
 
 **What to do:**
 
-- Write a function that checks for missing or incorrectly typed fields and returns a helpful error message
+- Store student information (name, grades for different subjects)
+- Calculate average grade
+- Determine letter grade
+- Print a formatted report
 
-**What NOT to do:**
+**Example:**
 
-- Don't assume all dictionary keys exist
-- Don't skip type checks
+```python
+student_name = "John Doe"
+math_grade = 85
+science_grade = 92
+english_grade = 78
 
-**If you can't solve this, review:** Dictionaries, type checking, error handling
+average_grade = (math_grade + science_grade + english_grade) / 3
 
-**✅ Validation:** Always check data before processing!
+if average_grade >= 90:
+    letter_grade = "A"
+elif average_grade >= 80:
+    letter_grade = "B"
+elif average_grade >= 70:
+    letter_grade = "C"
+else:
+    letter_grade = "F"
 
----
-
-### Question 17: Handling None and Default Values in Functions ⭐⭐⭐
-
-**⏱️ Time Estimate:** 25 minutes  
-**🎯 Category:** Function Design  
-**📝 Skills Tested:** Default arguments, None handling
-
-**Task:** Write a function that takes an optional argument and uses None as a default. Explain the difference between None and other default values.
-
-**What to do:**
-
-- Show how to check for None and provide a fallback value
-
-**What NOT to do:**
-
-- Don't use mutable objects as default arguments
-- Don't confuse None with 0 or empty string
-
-**If you can't solve this, review:** Default arguments, None, function parameter best practices
-
-**🎯 Default Values:** Use None for optional parameters, not mutable objects!
-
----
-
-## 🔴 **Expert Level Questions** (18-20)
-
-### Question 18: Detecting and Fixing Shadowed Variables ⭐⭐⭐
-
-**⏱️ Time Estimate:** 30 minutes  
-**🎯 Category:** Advanced Debugging  
-**📝 Skills Tested:** Variable shadowing, scope debugging
-
-**Task:** Debug a script where a local variable accidentally hides a global variable of the same name.
-
-**What to do:**
-
-- Identify the shadowing and refactor the code to avoid confusion
-
-**What NOT to do:**
-
-- Don't use the same name for local and global variables unless necessary
-
-**If you can't solve this, review:** Variable scope, shadowing, global vs local variables
-
-**👥 Shadowing:** Local variables can hide global ones with the same name!
+print("=== GRADE REPORT ===")
+print(f"Student: {student_name}")
+print(f"Math: {math_grade}")
+print(f"Science: {science_grade}")
+print(f"English: {english_grade}")
+print(f"Average: {average_grade:.1f}")
+print(f"Letter Grade: {letter_grade}")
+```
 
 ---
 
-### Question 19: Real-Life Logging and Data Types ⭐⭐
+## 🎯 **Learning Path**
 
-**⏱️ Time Estimate:** 20 minutes  
-**🎯 Category:** Logging & Debugging  
-**📝 Skills Tested:** Logging, type conversion
-
-**Task:** Log user actions to a file, ensuring all data types are correctly converted to strings.
-
-**What to do:**
-
-- Safely convert and format different data types for logging
-
-**What NOT to do:**
-
-- Don't concatenate non-string types directly
-- Don't ignore formatting errors
-
-**If you can't solve this, review:** str(), string formatting, logging basics
-
-**📝 Logging Tip:** Always convert data to strings before logging!
+**Start Here:** Questions 1-5 (Absolute basics)
+**Build Confidence:** Questions 6-10 (Simple applications)
+**Practice More:** Questions 11-15 (Intermediate concepts)
+**Challenge Yourself:** Questions 16-20 (Advanced topics)
+**Master Level:** Questions 21-25 (Expert applications)
 
 ---
 
-### Question 20: Debugging Identity vs Equality in Real Code ⭐⭐⭐⭐
+## 💡 **Tips for Success**
 
-**⏱️ Time Estimate:** 40 minutes  
-**🎯 Category:** Advanced Debugging  
-**📝 Skills Tested:** Identity vs equality, real-world debugging
-
-**Task:** Fix a bug where 'is' is used instead of '==' to compare values from a database or API.
-
-**What to do:**
-
-- Explain the difference and refactor the code to use the correct operator
-
-**What NOT to do:**
-
-- Don't use 'is' for value comparison
-- Don't assume identity means equality
-
-**If you can't solve this, review:** 'is' vs '==', object identity, equality in Python
-
-**🔍 Expert Tip:** 'is' checks identity, '==' checks value equality!
+1. **Start Simple:** Don't skip the basic questions - they build your foundation
+2. **Practice Regularly:** Work on a few questions each day
+3. **Experiment:** Try changing values and see what happens
+4. **Use Print:** Always print your variables to see what's happening
+5. **Ask Questions:** If something doesn't make sense, investigate it
 
 ---
 
-## 🆕 **Additional Practice Questions** (21-30)
+## 🔧 **Common Mistakes to Avoid**
 
-### Question 21: Working with Complex Numbers ⭐⭐
-
-**⏱️ Time Estimate:** 15 minutes  
-**🎯 Category:** Advanced Types  
-**📝 Skills Tested:** Complex numbers, mathematical operations
-
-**Task:** Perform operations with complex numbers and understand their properties.
-
-**Real-life Scenario:** You're building a signal processing application:
-
-- Create complex numbers representing electrical signals
-- Perform mathematical operations on complex numbers
-- Extract real and imaginary parts
-- Calculate magnitude and phase
-
-**Think about:**
-
-- How do complex numbers differ from real numbers?
-- What operations can you perform on complex numbers?
-- How do you access the real and imaginary components?
-
-**Challenge yourself:**
-
-- Can you implement a simple complex number calculator?
-- What if you need to convert between polar and rectangular forms?
-
-**If you can't solve this, review:** Complex numbers, mathematical operations, built-in functions
-
-**🔢 Complex Math:** `3+4j` represents 3 + 4i in mathematics!
+- ❌ Using `=` instead of `==` for comparisons
+- ❌ Forgetting quotes around strings
+- ❌ Not converting input() to the right type
+- ❌ Using unclear variable names
+- ❌ Forgetting to print your results
 
 ---
 
-### Question 22: Understanding Bytes and Bytearrays ⭐⭐⭐
-
-**⏱️ Time Estimate:** 25 minutes  
-**🎯 Category:** Binary Data  
-**📝 Skills Tested:** Binary data handling, encoding
-
-**Task:** Work with binary data using bytes and bytearray objects.
-
-**Real-life Scenario:** You're processing binary files or network data:
-
-- Convert strings to bytes and vice versa
-- Manipulate binary data safely
-- Handle different character encodings
-- Process raw binary data
-
-**Think about:**
-
-- When would you use bytes vs bytearray?
-- How do you handle encoding and decoding?
-- What's the difference between bytes and strings?
-
-**Challenge yourself:**
-
-- Can you implement a simple binary file reader?
-- What if you need to process network packets?
-
-**If you can't solve this, review:** Bytes, bytearray, encoding, binary data
-
-**💾 Binary Data:** Bytes are immutable, bytearrays are mutable!
-
----
-
-### Question 23: Working with Sets and Frozen Sets ⭐⭐
-
-**⏱️ Time Estimate:** 20 minutes  
-**🎯 Category:** Set Operations  
-**📝 Skills Tested:** Set operations, uniqueness
-
-**Task:** Use sets to handle unique collections and perform set operations.
-
-**Real-life Scenario:** You're building a recommendation system:
-
-- Find common interests between users
-- Remove duplicate items from lists
-- Perform mathematical set operations
-- Track unique visitors to a website
-
-**Think about:**
-
-- When should you use sets instead of lists?
-- What operations are unique to sets?
-- How do you handle set operations efficiently?
-
-**Challenge yourself:**
-
-- Can you implement a simple recommendation algorithm?
-- What if you need to find overlapping data sets?
-
-**If you can't solve this, review:** Sets, set operations, uniqueness, mathematical sets
-
-**🎯 Set Advantage:** O(1) membership testing vs O(n) for lists!
-
----
-
-### Question 24: Understanding Named Tuples ⭐⭐⭐
-
-**⏱️ Time Estimate:** 18 minutes  
-**🎯 Category:** Advanced Data Structures  
-**📝 Skills Tested:** Named tuples, structured data
-
-**Task:** Create and use named tuples for structured data representation.
-
-**Real-life Scenario:** You're building a database interface:
-
-- Represent database records with named fields
-- Create structured data objects
-- Access data by field names
-- Maintain data integrity
-
-**Think about:**
-
-- When are named tuples better than regular tuples?
-- How do you access data in named tuples?
-- What are the benefits of named tuples over dictionaries?
-
-**Challenge yourself:**
-
-- Can you create a simple database record system?
-- What if you need to validate the data structure?
-
-**If you can't solve this, review:** Named tuples, collections module, structured data
-
-**📋 Named Tuples:** Combine tuple immutability with field names!
-
----
-
-### Question 25: Working with Enums ⭐⭐⭐
-
-**⏱️ Time Estimate:** 15 minutes  
-**🎯 Category:** Constants & Enumerations  
-**📝 Skills Tested:** Enums, constants, type safety
-
-**Task:** Use enums to represent constants and improve code readability.
-
-**Real-life Scenario:** You're building a game with different states:
-
-- Define game states (playing, paused, game_over)
-- Represent user roles (admin, user, guest)
-- Handle different file types
-- Manage application status codes
-
-**Think about:**
-
-- When should you use enums instead of constants?
-- How do you iterate through enum values?
-- What are the benefits of using enums?
-
-**Challenge yourself:**
-
-- Can you implement a simple state machine?
-- What if you need to serialize enum values?
-
-**If you can't solve this, review:** Enums, constants, type safety, enum module
-
-**🎮 Enum Benefits:** Type safety, iteration, and clear intent!
-
----
-
-### Question 26: Understanding Dataclasses ⭐⭐⭐
-
-**⏱️ Time Estimate:** 22 minutes  
-**🎯 Category:** Modern Python Features  
-**📝 Skills Tested:** Dataclasses, automatic methods
-
-**Task:** Use dataclasses to create simple data containers with automatic methods.
-
-**Real-life Scenario:** You're building a configuration system:
-
-- Create configuration objects with default values
-- Automatically generate comparison methods
-- Handle data validation
-- Serialize configuration data
-
-**Think about:**
-
-- When should you use dataclasses vs regular classes?
-- What methods are automatically generated?
-- How do you customize dataclass behavior?
-
-**Challenge yourself:**
-
-- Can you create a configuration management system?
-- What if you need to add custom validation?
-
-**If you can't solve this, review:** Dataclasses, automatic methods, Python 3.7+ features
-
-**⚡ Dataclass Magic:** Automatic `__init__`, `__repr__`, `__eq__` methods!
-
----
-
-### Question 27: Working with Type Hints ⭐⭐⭐
-
-**⏱️ Time Estimate:** 20 minutes  
-**🎯 Category:** Type Safety  
-**📝 Skills Tested:** Type hints, code documentation
-
-**Task:** Add type hints to functions and variables to improve code clarity.
-
-**Real-life Scenario:** You're working on a large codebase:
-
-- Document function parameters and return types
-- Use type hints for better IDE support
-- Handle complex type annotations
-- Work with generic types
-
-**Think about:**
-
-- How do type hints improve code quality?
-- What types can you annotate?
-- How do you handle optional types?
-
-**Challenge yourself:**
-
-- Can you add type hints to existing code?
-- What if you need to handle union types?
-
-**If you can't solve this, review:** Type hints, typing module, code documentation
-
-**📝 Type Hints:** Improve code clarity and catch errors early!
-
----
-
-### Question 28: Understanding Slots ⭐⭐⭐⭐
-
-**⏱️ Time Estimate:** 25 minutes  
-**🎯 Category:** Performance Optimization  
-**📝 Skills Tested:** Memory optimization, class design
-
-**Task:** Use `__slots__` to optimize memory usage in classes with many instances.
-
-**Real-life Scenario:** You're building a high-performance application:
-
-- Create classes with fixed attributes
-- Optimize memory usage for large datasets
-- Understand the trade-offs of using slots
-- Handle inheritance with slots
-
-**Think about:**
-
-- When should you use `__slots__`?
-- What are the benefits and limitations?
-- How do slots affect inheritance?
-
-**Challenge yourself:**
-
-- Can you measure the memory savings?
-- What if you need to add attributes dynamically?
-
-**If you can't solve this, review:** `__slots__`, memory optimization, class design
-
-**💾 Memory Optimization:** Slots can significantly reduce memory usage!
-
----
-
-### Question 29: Working with Properties ⭐⭐⭐
-
-**⏱️ Time Estimate:** 18 minutes  
-**🎯 Category:** Class Design  
-**📝 Skills Tested:** Properties, getters, setters
-
-**Task:** Use properties to control attribute access and add validation.
-
-**Real-life Scenario:** You're building a user management system:
-
-- Validate user age when setting it
-- Compute derived attributes (like full name)
-- Control read/write access to sensitive data
-- Add logging to attribute changes
-
-**Think about:**
-
-- When should you use properties vs regular attributes?
-- How do you implement read-only properties?
-- What are the benefits of using properties?
-
-**Challenge yourself:**
-
-- Can you implement a property with validation?
-- What if you need to cache computed properties?
-
-**If you can't solve this, review:** Properties, getters, setters, validation
-
-**🔒 Property Benefits:** Encapsulation, validation, and computed values!
-
----
-
-### Question 30: Understanding Descriptors ⭐⭐⭐⭐
-
-**⏱️ Time Estimate:** 30 minutes  
-**🎯 Category:** Advanced Python Features  
-**📝 Skills Tested:** Descriptors, attribute access control
-
-**Task:** Create custom descriptors to control attribute access behavior.
-
-**Real-life Scenario:** You're building a framework with custom behavior:
-
-- Create attributes that validate automatically
-- Implement lazy loading of expensive data
-- Add custom behavior to attribute access
-- Create reusable attribute patterns
-
-**Think about:**
-
-- How do descriptors work under the hood?
-- When should you use descriptors?
-- What are the different types of descriptors?
-
-**Challenge yourself:**
-
-- Can you create a validation descriptor?
-- What if you need to implement caching?
-
-**If you can't solve this, review:** Descriptors, `__get__`, `__set__`, `__delete__` methods
-
-**🔧 Descriptor Power:** Control how attributes are accessed and modified!
-
----
-
-## 🎯 **Updated Study Progress Summary**
-
-### 📈 **Completion Status:**
-
-- 🟢 **Basic Level:** 0/6 completed
-- 🟡 **Intermediate Level:** 0/6 completed
-- 🟠 **Advanced Level:** 0/5 completed
-- 🔴 **Expert Level:** 0/3 completed
-- 🆕 **Additional Practice:** 0/10 completed
-
-### ⏱️ **Total Estimated Time:** 9 hours 45 minutes
-
-### 🎓 **Next Steps:**
-
-1. Start with Basic Level questions (1-6)
-2. Move to Intermediate when comfortable
-3. Challenge yourself with Advanced concepts
-4. Master Expert level for real-world scenarios
-5. Practice with Additional Questions (21-30)
-
----
-
-> **💡 Pro Tip:** Take your time with each question. Understanding the concepts deeply is more important than rushing through them!
-
----
+_Remember: Every expert was once a beginner. Take your time, practice regularly, and don't be afraid to make mistakes!_ 🚀

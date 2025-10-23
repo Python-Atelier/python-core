@@ -53,11 +53,34 @@ cd python-core
 cd 01_variables_and_data_types/
 # Read questions.md to find a question
 
-# 3. Submit your solution
+# 3. Create solution folder and submit your solution
+mkdir solutions
 cd solutions/
-# Use solution_template.py as a starting point
+# Create a Python file for each question: question_1.py, question_2.py, etc.
 # Write your own solution - don't copy answers!
-python your_solution.py
+python question_1.py
+```
+
+---
+
+## 📁 Solution Structure
+
+Each topic folder contains practice questions. To submit solutions:
+
+1. **Create a `solutions/` folder** in each topic directory
+2. **Name your files** as `question_X.py` where X is the question number
+3. **Write your solution** in the Python file
+4. **Test your code** to ensure it works correctly
+5. **Submit via Pull Request** following our contribution guidelines
+
+### Example Structure:
+```
+01_variables_and_data_types/
+├── questions.md
+└── solutions/           # Create this folder
+    ├── question_1.py    # Your solution for question 1
+    ├── question_2.py    # Your solution for question 2
+    └── question_3.py    # Your solution for question 3
 ```
 
 ---
@@ -85,10 +108,9 @@ Earn badges for:
 
 ## 🤝 How to Contribute
 
-- 📋 [Solution Guidelines](SOLUTION_GUIDELINES.md)
 - 📝 [Contribution Guide](CONTRIBUTING.md)
 - 🏆 [Badge System](BADGES.md)
-- 🗺️ [2025 Roadmap](python_roadmap_2025.md)
+- 📁 [Solution Structure](#-solution-structure)
 
 ---
 
