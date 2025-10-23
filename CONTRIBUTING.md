@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 ```bash
 # For solutions
-git checkout -b solution/question-01-variables
+git checkout -b solution/question-1-variables
 
 # For new features
 git checkout -b feature/new-topic
@@ -78,7 +78,7 @@ git checkout -b fix/mermaid-graph-issue
 
 ```bash
 git add .
-git commit -m "feat: Add solution for question 01 - Variables"
+git commit -m "feat: Add solution for question 1 - Variables"
 git push origin your-branch-name
 ```
 
@@ -95,7 +95,7 @@ git push origin your-branch-name
 
 ### **PR Title Format:**
 
-- `feat: Add solution for question 01 - Variables`
+- `feat: Add solution for question 1 - Variables`
 - `fix: Resolve mermaid graph rendering issue`
 - `docs: Update contributing guidelines`
 - `style: Format code according to PEP 8`
@@ -150,27 +150,30 @@ Add screenshots for UI changes
    # Read questions.md to find a question
    ```
 
-2. **Create Solution**
+2. **Create Solution Folder and File**
 
    ```bash
+   # Create solutions folder if it doesn't exist
+   mkdir -p solutions
    cd solutions/
+   
    # Create your solution file
-   touch question_01.py
+   touch question_1.py
    # Edit with your solution
    ```
 
 3. **Test Your Solution**
 
    ```bash
-   python question_01.py
+   python question_1.py
    # Ensure it runs without errors
    ```
 
 4. **Submit PR**
    ```bash
    git add .
-   git commit -m "feat: Add solution for question 01 - Variables"
-   git push origin solution/question-01
+   git commit -m "feat: Add solution for question 1 - Variables"
+   git push origin solution/question-1
    # Create PR on GitHub
    ```
 
