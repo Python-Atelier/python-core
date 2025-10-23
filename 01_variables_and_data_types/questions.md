@@ -29,13 +29,6 @@
 - Create a variable called `age` and store your age as a number
 - Create a variable called `is_student` and store `True` or `False`
 
-**Example:**
-
-```python
-name = "Alice"
-age = 25
-is_student = True
-```
 
 **Think about:**
 
@@ -62,17 +55,6 @@ is_student = True
 - Create a boolean variable (True or False)
 - Use `type()` to check what type each variable is
 
-**Example:**
-
-```python
-text = "Hello World"
-number = 42
-decimal = 3.14
-is_true = True
-
-print(type(text))    # Should show: <class 'str'>
-print(type(number))  # Should show: <class 'int'>
-```
 
 **Think about:**
 
@@ -97,20 +79,6 @@ print(type(number))  # Should show: <class 'int'>
 - Multiply them and store the result
 - Print all results
 
-**Example:**
-
-```python
-a = 10
-b = 5
-
-sum_result = a + b
-difference = a - b
-product = a * b
-
-print(f"Sum: {sum_result}")
-print(f"Difference: {difference}")
-print(f"Product: {product}")
-```
 
 **Think about:**
 
@@ -134,14 +102,6 @@ print(f"Product: {product}")
 - Combine them to create your full name
 - Print your full name
 
-**Example:**
-
-```python
-first_name = "John"
-last_name = "Doe"
-full_name = first_name + " " + last_name
-print(full_name)  # Should print: John Doe
-```
 
 **Think about:**
 
@@ -166,17 +126,6 @@ print(full_name)  # Should print: John Doe
 - Convert it to an integer using `int()`
 - Print the results
 
-**Example:**
-
-```python
-number_string = "123"
-number_int = int(number_string)
-print(number_int)  # Should print: 123
-
-decimal_number = 3.14
-whole_number = int(decimal_number)
-print(whole_number)  # Should print: 3
-```
 
 **Think about:**
 
@@ -200,14 +149,6 @@ print(whole_number)  # Should print: 3
 - Store the result in a variable
 - Print the result
 
-**Example:**
-
-```python
-length = 10
-width = 5
-area = length * width
-print(f"The area is: {area}")
-```
 
 **Think about:**
 
@@ -230,14 +171,6 @@ print(f"The area is: {area}")
 - Create a variable `is_raining` and set it to the opposite
 - Print both variables
 
-**Example:**
-
-```python
-is_sunny = True
-is_raining = False
-print(f"Sunny: {is_sunny}")
-print(f"Raining: {is_raining}")
-```
 
 **Think about:**
 
@@ -261,15 +194,6 @@ print(f"Raining: {is_raining}")
 - Update the score to 100
 - Print the score again
 
-**Example:**
-
-```python
-score = 0
-print(f"Score: {score}")
-
-score = 100
-print(f"Score: {score}")
-```
 
 **Think about:**
 
@@ -291,19 +215,6 @@ print(f"Score: {score}")
 - Create variables for: name (string), age (integer), height (float), is_student (boolean)
 - Print all the information in a nice format
 
-**Example:**
-
-```python
-name = "Alice"
-age = 20
-height = 5.6
-is_student = True
-
-print(f"Name: {name}")
-print(f"Age: {age}")
-print(f"Height: {height} feet")
-print(f"Is student: {is_student}")
-```
 
 **Think about:**
 
@@ -328,15 +239,6 @@ print(f"Is student: {is_student}")
 - Convert the age to an integer
 - Print a greeting with their information
 
-**Example:**
-
-```python
-name = input("What is your name? ")
-age_string = input("What is your age? ")
-age = int(age_string)
-
-print(f"Hello {name}, you are {age} years old!")
-```
 
 **Think about:**
 
@@ -360,12 +262,6 @@ print(f"Hello {name}, you are {age} years old!")
 - Assign three different values to three variables in one line
 - Print all three variables
 
-**Example:**
-
-```python
-x, y, z = 1, 2, 3
-print(f"x = {x}, y = {y}, z = {z}")
-```
 
 **Think about:**
 
@@ -388,16 +284,6 @@ print(f"x = {x}, y = {y}, z = {z}")
 - Swap their values
 - Print both variables before and after
 
-**Example:**
-
-```python
-a = 10
-b = 20
-print(f"Before: a = {a}, b = {b}")
-
-a, b = b, a
-print(f"After: a = {a}, b = {b}")
-```
 
 **Think about:**
 
@@ -420,14 +306,6 @@ print(f"After: a = {a}, b = {b}")
 - Use f-strings to create a nice product description
 - Print the formatted string
 
-**Example:**
-
-```python
-product = "Laptop"
-price = 999.99
-description = f"The {product} costs ${price}"
-print(description)
-```
 
 **Think about:**
 
@@ -450,22 +328,6 @@ print(description)
 - Calculate and store: sum, difference, product, quotient
 - Print all results
 
-**Example:**
-
-```python
-num1 = 15
-num2 = 3
-
-sum_result = num1 + num2
-difference = num1 - num2
-product = num1 * num2
-quotient = num1 / num2
-
-print(f"Sum: {sum_result}")
-print(f"Difference: {difference}")
-print(f"Product: {product}")
-print(f"Quotient: {quotient}")
-```
 
 **Think about:**
 
@@ -489,13 +351,6 @@ print(f"Quotient: {quotient}")
 - Store the result in a variable
 - Print both temperatures
 
-**Example:**
-
-```python
-celsius = 25
-fahrenheit = (celsius * 9/5) + 32
-print(f"{celsius}°C is equal to {fahrenheit}°F")
-```
 
 **Think about:**
 
@@ -520,16 +375,6 @@ print(f"{celsius}°C is equal to {fahrenheit}°F")
 - Use them in a calculation (like area of a circle)
 - Print the result
 
-**Example:**
-
-```python
-PI = 3.14159
-GRAVITY = 9.81
-
-radius = 5
-area = PI * radius * radius
-print(f"Area of circle: {area}")
-```
 
 **Think about:**
 
@@ -552,19 +397,6 @@ print(f"Area of circle: {area}")
 - Create variables for the length, uppercase version, and lowercase version
 - Print all the information
 
-**Example:**
-
-```python
-sentence = "Hello World"
-length = len(sentence)
-upper_case = sentence.upper()
-lower_case = sentence.lower()
-
-print(f"Original: {sentence}")
-print(f"Length: {length}")
-print(f"Uppercase: {upper_case}")
-print(f"Lowercase: {lower_case}")
-```
 
 **Think about:**
 
@@ -588,18 +420,6 @@ print(f"Lowercase: {lower_case}")
 - If yes, convert it; if no, use a default value
 - Print the result
 
-**Example:**
-
-```python
-user_input = input("Enter a number: ")
-
-if user_input.isdigit():
-    number = int(user_input)
-else:
-    number = 0
-
-print(f"The number is: {number}")
-```
 
 **Think about:**
 
@@ -622,22 +442,6 @@ print(f"The number is: {number}")
 - Calculate total value (quantity × price)
 - Print a formatted inventory report
 
-**Example:**
-
-```python
-item_name = "Laptop"
-quantity = 5
-price = 999.99
-in_stock = True
-
-total_value = quantity * price
-
-print(f"Item: {item_name}")
-print(f"Quantity: {quantity}")
-print(f"Price: ${price}")
-print(f"In Stock: {in_stock}")
-print(f"Total Value: ${total_value}")
-```
 
 **Think about:**
 
@@ -661,28 +465,6 @@ print(f"Total Value: ${total_value}")
 - Keep track of total questions answered
 - Print the final score and average
 
-**Example:**
-
-```python
-score = 0
-questions_answered = 0
-
-# Simulate some game actions
-score += 10  # Correct answer
-questions_answered += 1
-
-score += 5   # Bonus
-questions_answered += 1
-
-score += 10  # Another correct answer
-questions_answered += 1
-
-average = score / questions_answered
-
-print(f"Final Score: {score}")
-print(f"Questions Answered: {questions_answered}")
-print(f"Average Score: {average}")
-```
 
 **Think about:**
 
@@ -707,29 +489,6 @@ print(f"Average Score: {average}")
 - Calculate subtotal, tax, and total
 - Format everything as a professional receipt
 
-**Example:**
-
-```python
-item1_name = "Coffee"
-item1_price = 3.50
-item1_qty = 2
-
-item2_name = "Sandwich"
-item2_price = 8.99
-item2_qty = 1
-
-subtotal = (item1_price * item1_qty) + (item2_price * item2_qty)
-tax_rate = 0.08
-tax = subtotal * tax_rate
-total = subtotal + tax
-
-print("=== RECEIPT ===")
-print(f"{item1_name} x{item1_qty}: ${item1_price * item1_qty:.2f}")
-print(f"{item2_name} x{item2_qty}: ${item2_price * item2_qty:.2f}")
-print(f"Subtotal: ${subtotal:.2f}")
-print(f"Tax: ${tax:.2f}")
-print(f"Total: ${total:.2f}")
-```
 
 ---
 
@@ -747,27 +506,6 @@ print(f"Total: ${total:.2f}")
 - Handle strings, integers, floats, and booleans
 - Provide meaningful error messages
 
-**Example:**
-
-```python
-def safe_convert(value, target_type):
-    try:
-        if target_type == "int":
-            return int(value)
-        elif target_type == "float":
-            return float(value)
-        elif target_type == "str":
-            return str(value)
-        elif target_type == "bool":
-            return bool(value)
-    except ValueError:
-        return f"Error: Cannot convert '{value}' to {target_type}"
-
-# Test the function
-print(safe_convert("123", "int"))
-print(safe_convert("3.14", "float"))
-print(safe_convert("abc", "int"))
-```
 
 ---
 
@@ -785,22 +523,6 @@ print(safe_convert("abc", "int"))
 - Create a function that uses and modifies variables
 - Demonstrate scope rules
 
-**Example:**
-
-```python
-global_score = 100
-
-def update_score(points):
-    global global_score
-    local_score = 50
-    global_score += points
-    print(f"Local score: {local_score}")
-    print(f"Global score: {global_score}")
-
-print(f"Initial global score: {global_score}")
-update_score(25)
-print(f"Final global score: {global_score}")
-```
 
 ---
 
@@ -818,24 +540,6 @@ print(f"Final global score: {global_score}")
 - Create a dictionary with person information
 - Access and modify the data
 
-**Example:**
-
-```python
-# List of scores
-scores = [85, 92, 78, 96, 88]
-average_score = sum(scores) / len(scores)
-
-# Dictionary of person
-person = {
-    "name": "Alice",
-    "age": 25,
-    "city": "New York"
-}
-
-print(f"Scores: {scores}")
-print(f"Average: {average_score}")
-print(f"Person: {person['name']} is {person['age']} years old")
-```
 
 ---
 

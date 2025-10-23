@@ -432,6 +432,6 @@ Track your contribution impact:
 
 ---
 
-**Thank you for contributing to Python Dojo! 🐍✨**
+**Thank you for contributing to Python Atelier! 🎨✨**
 
 Your contributions help make Python learning accessible and collaborative for everyone. Together, we're building the best Python practice resource in the world!
